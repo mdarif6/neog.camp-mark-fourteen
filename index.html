@@ -8,13 +8,42 @@
     <title>Stock Profit | Loss</title>
   </head>
   <body>
-    <form class="profitloss">
-      <input class="purchase" type="number" min="0" required />
-      <input class="stock" type="number" min="0" required />
-      <input class="currentprice" type="number" min="0" required />
-      <button class="buttoncheck">Submit</button>
-      <div class="output"></div>
-    </form>
+    <main class="stock-main">
+      <header class="stock-heading">
+        <h2>Stock Loss & Profit Calculator</h2>
+      </header>
+      <form class="profitloss">
+        <div>
+          <input
+            class="purchase"
+            type="number"
+            min="0"
+            placeholder="Avg B/S Price"
+            required
+          />
+        </div>
+        <div>
+          <input
+            class="stock"
+            type="number"
+            min="0"
+            placeholder="Holding Value"
+            required
+          />
+        </div>
+        <div>
+          <input
+            class="currentprice"
+            type="number"
+            min="0"
+            placeholder="Mkt Value"
+            required
+          />
+        </div>
+        <div><button class="buttoncheck">Gain/Loss</button></div>
+        <div class="output"></div>
+      </form>
+    </main>
 
     <script src="app.js" type="text/javascript"></script>
   </body>

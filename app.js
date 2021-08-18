@@ -21,11 +21,11 @@ buttonCheck.addEventListener("submit", (e) => {
   let lossPercentage = (loss / purchasePriceForPercenatage) * 100;
 
   if (updatedPrice > purchasePrice) {
-    output.textContent = `You got the profit of ${profit} and ${profitPercentage.toFixed(
+    output.textContent = `Hurray!! You got the ${profit} Rs. profit and proft percentage is  ${profitPercentage.toFixed(
       2
     )} %`;
   } else if (updatedPrice < purchasePrice) {
-    output.textContent = `Oh- you loss ${loss} and loss percentage${lossPercentage.toFixed(
+    output.textContent = `oops you loss ${loss} Rs. and loss percentage is ${lossPercentage.toFixed(
       2
     )}`;
   }

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  --primary-color: #ffca68;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-img {
+  max-width: 200px;
+  display: block;
+}
+.stock-main {
+  max-width: 500px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  background-color: var(--primary-color);
+}
+
+.profitloss {
+  text-align: center;
+}
+
+.purchase,
+.stock,
+.currentprice {
+  width: 60%;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.buttoncheck {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 25%;
+}
+.buttoncheck:hover {
+  background-color: var(--primary-color);
+}
+
+.output {
+  padding: 1rem;
+  margin: 1rem;
+}
